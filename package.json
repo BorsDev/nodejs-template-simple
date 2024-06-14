@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-template-simple",
+  "name": "nodejs-template-simple-w-sequelize",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -11,6 +11,8 @@
   "description": "",
   "dependencies": {
     "@hapi/hapi": "^21.3.9",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3"
   }
 }
